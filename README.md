@@ -1061,25 +1061,18 @@ different formulae over and over again.
 After, we will run the following regression models with `plm::plm()`:
 
   - Pooled
-
-  - Basically pretending the panel is a single cross-section, just like
+    - Basically pretending the panel is a single cross-section, just like
     “regular” OLS
-
   - Fixed-Effects (also called a “Within” model)
-
-  - All observations are *completely* temporally de-meaned.
-
-  - Does *not* assume orthogonality between explanatory variables and
+    - All observations are *completely* temporally de-meaned.
+    - Does *not* assume orthogonality between explanatory variables and
     the unobserved fixed effect - Therefore no constant - Also
     time-invariant variables are eliminated, and therefore
     redundant/useless - The error term **only** includes
     time-varying/idiosyncratic residuals
-
   - Random-Effects
-
-  - All observations are *partially* temporally de-meaned
-
-  - *Does* assume orthogonality between explanatory variables and the
+    - All observations are *partially* temporally de-meaned
+    - *Does* assume orthogonality between explanatory variables and the
     unobserved time-invariant effect - The constant is retained -
     Time-invariant variables are *not* eliminated - The error term
     includes **both** time-invariant, *and* time-varying/idiosyncratic
