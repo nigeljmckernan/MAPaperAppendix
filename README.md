@@ -3,6 +3,13 @@ MA Paper Code Appendix
 Nigel McKernan
 10/18/2020
 
+**NOTE**: This doucment does not have any LaTeX-style math equations properly rendered. This apparently is a well-documented issue with GitHub `.MD` files, so I'm just leaving them as-is from the original R-Markdown file (`.RMD`) I used to render this document. 
+
+There are hack-y workarounds that you can find with a quick Google search, however most, if not all, are too tedious/manual to conduct. 
+
+As such I've left all LaTeX equations as-is. I apologize for how crude they will appear.
+
+
 # 1 Introduction
 
 This appendix is a companion piece to my Master’s Research Project that
