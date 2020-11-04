@@ -7,7 +7,9 @@ Nigel McKernan
 
 There are hack-y workarounds that you can find with a quick Google search, however most, if not all, are too tedious/manual to conduct. 
 
-As such I've left all LaTeX equations as-is. I apologize for how crude they will appear.
+As such I've left all LaTeX equations as-is. 
+
+I apologize for how crude they will appear.
 
 
 # 1 Introduction
