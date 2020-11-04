@@ -18,6 +18,8 @@ This appendix is a companion piece to my Master’s Research Project that
 I completed to fulfill the requirements of my Master’s in Economics from
 Concordia University in Montréal, Québec.
 
+You can find that [here](https://github.com/nigeljmckernan/MAPaperAppendix/blob/master/Thesis_Draft_Final_Nigel_McKernan.pdf).
+
 I have 3 main goals that I want to achieve with this document:
 
   - To demonstrate *how* I executed the analysis of my paper via the
