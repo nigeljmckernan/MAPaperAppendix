@@ -3,58 +3,6 @@ MA Paper Code Appendix
 Nigel McKernan
 10/18/2020
 
-  - [1 Introduction](#introduction)
-      - [1.1 Base-R/data.table vs
-        Tidyverse](#base-rdata.table-vs-tidyverse)
-      - [1.2 Overview of Packages Used](#overview-of-packages-used)
-  - [2 Exogenous Regressor Data](#exogenous-regressor-data)
-      - [2.1 Pulling In The Data](#pulling-in-the-data)
-      - [2.2 Removing and Renaming
-        Columns](#removing-and-renaming-columns)
-      - [2.3 Splitting A Column](#splitting-a-column)
-      - [2.4 Filtering Observations](#filtering-observations)
-      - [2.5 Pivoting](#pivoting)
-      - [2.6 Recoding Observations](#recoding-observations)
-      - [2.7 Cleanup](#cleanup)
-  - [3 Temporal Disaggregation](#temporal-disaggregation)
-      - [3.1 Dissaggregating](#dissaggregating)
-      - [3.2 Pivoting Long](#pivoting-long)
-  - [4 Instrumental Variables](#instrumental-variables)
-      - [4.1 Pulling Climate Data](#pulling-climate-data)
-      - [4.2 Temporal Aggregation](#temporal-aggregation)
-  - [5 Pollution Data](#pollution-data)
-  - [6 House Price Index Data](#house-price-index-data)
-  - [7 Initial Regression Models](#initial-regression-models)
-      - [7.1 Overview of Model(s)
-        Estimated](#overview-of-models-estimated)
-      - [7.2 Formulae & OLS](#formulae-ols)
-      - [7.3 IV Models](#iv-models)
-  - [8 Diagnostics and Further
-    Refinements](#diagnostics-and-further-refinements)
-      - [8.1 F-Test for Effects](#f-test-for-effects)
-      - [8.2 Hausman Test](#hausman-test)
-      - [8.3 Breusch-Pagan LM Test](#breusch-pagan-lm-test)
-  - [9 Instrumental Variable (IV)
-    Diagnostics](#instrumental-variable-iv-diagnostics)
-      - [9.1 F-Testing our Instruments](#f-testing-our-instruments)
-      - [9.2 Wu-Hausman Test for
-        Endogeneity](#wu-hausman-test-for-endogeneity)
-      - [9.3 Sargan Test for Overidentified
-        Restrictions](#sargan-test-for-overidentified-restrictions)
-      - [9.4 Re-fitting with Single
-        Instruments](#re-fitting-with-single-instruments)
-  - [10 Model Caveats](#model-caveats)
-      - [10.1 Cross-Sectional Dependence](#cross-sectional-dependence)
-          - [10.1.1 Breusch-Pagan’s LM Test](#breusch-pagans-lm-test)
-          - [10.1.2 Heckman (1976) Correction](#heckman-1976-correction)
-      - [10.2 Serial Correlation](#serial-correlation)
-      - [10.3 Remedying Cross-Sectional & Serial
-        Correlation](#remedying-cross-sectional-serial-correlation)
-      - [10.4 Poolability and Variable Coefficients
-        Models](#poolability-and-variable-coefficients-models)
-  - [11 Summary](#summary)
-  - [12 References](#references)
-
 # 1 Introduction
 
 This appendix is a companion piece to my Master’s Research Project that
