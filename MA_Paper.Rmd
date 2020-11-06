@@ -553,10 +553,10 @@ Since the frequency of this data is too fine (daily/hourly), it must be aggregat
 Once again, `dplyr` comes to the rescue, with `group_by()` and `summarise()` making this fairly simple to do.
 
 ```{r silent import, include=FALSE, cache=TRUE, cache.lazy=FALSE}
-data_hourly <- data.table::fread("data_hourly.csv") %>% as_tibble()
+data_hourly <- data.table::fread("C:\\Users\\nigel\\Nigel's Documents\\MA Project\\data_hourly.csv") %>% as_tibble()
 
 
-stations <- read_csv("station_data.csv")
+stations <- read_csv("C:\\Users\\nigel\\Nigel's Documents\\MA Project\\station_data.csv")
 
 
 ```
@@ -633,7 +633,7 @@ I mainly:
 To compensate for the lack of code, here is a visualization of pollution levels over time faceted by City.
 
 ```{r silent pollution, include=FALSE}
-pollution <- read_csv("Data_Date.csv")
+pollution <- read_csv("C:\\Users\nigel\\Nigel's Documents\\MA Project\\Data_Date.csv")
 ```
 
 ```{r poll viz}
@@ -678,7 +678,7 @@ pollution %>%
 # Initial Regression Models
 
 ```{r rename poll, include=FALSE, cache=TRUE}
-pollution <- read_csv("Data_Date.csv") %>% pdata.frame(index = c("City",
+pollution <- read_csv("C:\\Users\\nigel\\Nigel's Documents\\MA Project\\Data_Date.csv") %>% pdata.frame(index = c("City",
                                                                    "Date"))
 ```
 
