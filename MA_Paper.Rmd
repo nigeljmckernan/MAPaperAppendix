@@ -7,7 +7,6 @@ output:
     toc: yes
     toc_float: yes
     number_sections: yes
-    keep_md: yes
 bibliography: MAPaper.bibtex
 nocite: | 
   @stats2020hom,
