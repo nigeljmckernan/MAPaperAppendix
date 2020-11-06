@@ -556,7 +556,7 @@ Once again, `dplyr` comes to the rescue, with `group_by()` and `summarise()` mak
 data_hourly <- data.table::fread("C:\\Users\\nigel\\Nigel's Documents\\MA Project\\data_hourly.csv") %>% as_tibble()
 
 
-stations <- read_csv("station_data.csv")
+stations <- read_csv("C:\\Users\\nigel\\Nigel's Documents\\MA Project\\station_data.csv")
 
 
 ```
