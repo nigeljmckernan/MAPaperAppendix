@@ -81,6 +81,12 @@ I have 3 main goals that I want to achieve with this document:
       - Data analysis, cleaning, and visualization
       - Communicating my research and analysis in a layman-esque manner
         (as best as I can).
+        
+**NOTE**: It's apparently a well-documented issue that GitHub Markdown (`.md`) files don't render LaTeX equations or math *at all*. 
+
+As such, I've left the LaTeX equations and math from my original R Markdown document as-is, as I have not found a robust way to incorporate LaTeX-style math into GitHub markdown documents, without converting them all into image files, like `.jpg` or `.png`.
+
+I apologize how crude they will appear.
 
 ## 1.1 Base-R/data.table vs Tidyverse
 
