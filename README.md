@@ -4,7 +4,7 @@ As such, I've left the LaTeX equations and math from my original R Markdown docu
 
 I apologize how crude they will appear.
 
-If you wish to view a better version of this document (floating table of contents, properly rendered math), please visit [this](https://nigelmckernan.ca/media/ma_paper) page.
+If you wish to view a better version of this document (floating table of contents, properly rendered LaTeX), please visit [this](https://nigelmckernan.ca/media/ma_paper) page.
 
 MA Paper Code Appendix
 ================
